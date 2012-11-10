@@ -1,0 +1,12 @@
+[submodule "proxmark3"]
+	path = proxmark3
+	url = git@github.com:marcv81/proxmark3.git
+[submodule "libusb"]
+	path = libusb
+	url = git@github.com:marcv81/libusb.git
+[submodule "termcap"]
+	path = termcap
+	url = git@github.com:marcv81/termcap.git
+[submodule "readline"]
+	path = readline
+	url = git@github.com:marcv81/readline.git
