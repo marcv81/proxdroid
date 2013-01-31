@@ -1,0 +1,32 @@
+Intro
+=====
+
+This is the proxmark3 for Android superproject. You'll need a proxmark3 board, a rooted Android device that supports the USB host mode, and a USB OTG cable to connect them. If your Android device does not power the proxmark3 board you may need an external power supply and a Y USB cable.
+
+Devices known to work:
+- HTC One V (PrimoU) (requires an external power supply)
+
+Devices known to have issues:
+- Samsung Galaxy S2 (the phone can send data to the proxmark3 board but no answer is ever received)
+
+Build
+=====
+
+Install the Android SDK and NDK.
+Get the source from GitHub:
+  git clone https://github.com/marcv81/proxdroid.git proxdroid
+  cd proxdroid
+  git submodule init
+  git submodule update
+Run "ndk-build".
+
+Install
+=======
+
+Connect your Android device with "adb connect" and run "install.sh".
+
+Run
+===
+
+On the Android device run the Terminal Emulator, execute the command "su", then execute the command "proxmark3".
+
